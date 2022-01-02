@@ -12,7 +12,7 @@ SC : O(1) - constant space comp
 ```
 
 #### Sol 1
-```
+```java
 String sort(String s) {
 	char[] content = s.toCharArray();
 	java.util.Arrays.sort(content);
@@ -28,7 +28,7 @@ boolean permutation(String s, String t) {
 ```
 
 #### Sol 2
-```
+```java
  boolean permutation(String s, String t) {
 	if (s.length() != t.length()) {
 		return false;
