@@ -37,7 +37,7 @@ boolean permutation(String s, String t) {
 	int[] letters = new int[128]; // Assumption
 	char[] s_array = s.toCharArray();
 	for (char c : s_array) {
-		II count number of each char in s.
+		// count number of each char in s.
 		letters[c]++;
 	}
 	for (int i = 0; i < t.length(); i++) {
