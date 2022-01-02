@@ -27,7 +27,7 @@ SC : O(1)
 ```
 
 #### Sol 1
-```
+```java
  boolean isUniqueChars(String str) {
  if (str.length() > 128) return false;
 
@@ -44,7 +44,7 @@ SC : O(1)
 ```
 
 #### Sol 2
-```
+```java
 boolean isUniqueChars(String str) {
  int checker= 0;
  for (int i= 0; i < str.length(); i++) {
