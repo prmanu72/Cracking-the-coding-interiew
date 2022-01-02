@@ -11,7 +11,7 @@ Output: "Mr%20John%20Smith"
 TC: O(n)
 SC: O(n)
 ```
-```
+```java
 void replaceSpaces(char(J str, int trueLength) {
 	int spaceCount = 0, index, i = 0;
 	for (i - 0; i < trueLength; i++) {
