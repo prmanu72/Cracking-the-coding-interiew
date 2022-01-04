@@ -49,7 +49,7 @@ String compress(String str) {
 Above solutions create the compressed string, then return shorter string. Below approach create cpmpressed string
 only when it is shorter but adds duplicate code
 
-
+Initialize StringBuilder to its necessary capacity up-front without the need of doubling size late
 ```java
 
 String compress(String str) {
